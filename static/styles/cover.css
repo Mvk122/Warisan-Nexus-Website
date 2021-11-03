@@ -19,6 +19,13 @@ textarea {
     font-weight: 500;
 }
 
+.black-header-text {
+    color: black;
+    font-size: calc(60% + 3vw + 2vh);
+    font-weight: 600;
+    
+}
+
 .subtext {
     color: grey;
     font-size: calc(60% + 0.9vw + 0.9vh);
@@ -29,7 +36,13 @@ textarea {
     color: white;
     font-size: calc(60% + 0.9vw + 0.9vh);
     padding-top: 1em;
+    
+}
 
+.mission-statement-subtext {
+    color: black;
+    font-size: calc(50% + 0.7vw + 0.7vh);
+    line-height: 1.2em;
 }
 
 .secondary-text {
@@ -160,7 +173,23 @@ input {
     width: 100%;
     font-size: 14px;
     font-family: inherit;
-  }
+}
+
+.mission-statement {
+    background-color: #fbdf3f;
+    padding-right: 4em;
+    padding-left: 4em;
+    padding-top: 6em;
+    padding-bottom: 4em;
+}
+
+.div-line {
+    width: 100%;
+    height: 2px;
+    border: 1px solid #000000;
+    background-color: #000000;
+    transform: translate(-3em, 0.9em);
+}
 
 @media (min-width: 768px) {
     .navbar-toggle-visible {
@@ -185,5 +214,9 @@ input {
     .contact-container {
         padding-left: 1em;
         padding-right: 1em ;
+    }
+
+    .div-line {
+        transform: translate(-1em, 0.9em);
     }
 }
